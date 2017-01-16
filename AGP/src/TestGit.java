@@ -2,7 +2,7 @@
 public class TestGit {
 	
 	public int value1;
-	public int value4;
+	public int value4 = 4;
 	public int value3;
 	public int value2;
 	
