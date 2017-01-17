@@ -1,15 +1,83 @@
-MAUI :
-Haleakala National Park (randonnée pédestre, parc nature, volcan éteint)
-Ka'anapali Beach (plage, spa, détente, hamam...)
-Old Lahaina Luau (soirée cuisine et danse traditionnelle / culturel/historique)
+////////////////////////////////////MAUI ACTIVITES/////////////////////////////////////////
+ACTIVITY 1 :
+Nom         : Haleakala National Park 
+Adresse     : 41 Hana Hwy, Hana, HI 96713, États-Unis
+Description : Randonnée découverte faune et flore locale de Hawaï
+GPS         : Latitude : 20.711189 | Longitude : -155.993795
+Prix        : 100€/excursion
 
-O'AHU :
-Manoa (treck jungle)
-Sea Life Park (toutes les créatures marines)
-Palais 'Iolani (site historique)
 
-ISLAND OF HAWAÏ :
-Hélicoptère Island of Hawaï (passage au dessus de toutes les iles)
-Mauna Loa (expedition volcan)
-Shark cage (extrême)
-Pu'uhonua O Honaunau National Historical Park (historique)
+ACTIVITY 2 :
+Nom         : Ka'anapali Beach 
+Adresse     : Kaanapali Beach, Kaanapali, HI 96761, États-Unis
+Description : Plage Privé, spa, hamam, massages...	
+GPS         : Latitude : 20.917831 | Longitude : -156.696625
+Prix        : 200€/excursion
+
+
+ACTIVITY 3 :
+Nom         : Old Lahaina Luau
+Adresse     : 1251 Front St, Lahaina, HI 96761, États-Unis
+Description : Cuisine et Danses traditionnelles Hawaïennes
+GPS         : Latitude : 20.886007 | Longitude : -156.685327
+Prix        : 100€/excursion
+
+
+
+////////////////////////////////////O'AHU ACTIVITES////////////////////////////////////////
+ACTIVITY 1 :
+Nom         : Bishop Museum
+Adresse     : 1525 Bernice St, Honolulu, HI 96817, États-Unis
+Description : Visite du musée dédié à  la culture et l'histoire hawaïenne
+GPS         : Latitude : 21.332978 | Longitude : -157.870402
+Prix        : 80€/excursion
+
+
+ACTIVITY 2 :
+Nom         : Sea Life Park 	
+Adresse     : 41-202 Kalanianaole Hwy, Waimanalo, HI 96795, États-Unis
+Description : Découverte faune et flore sous-marine
+GPS         : Latitude : 21.313688 | Longitude : -157.66287
+Prix        : 50€/excusion
+
+
+ACTIVITY 3 :
+Nom         : Iolani Palace 
+Adresse     : 364 S King St, Honolulu, HI 96813, États-Unis
+Description : Visite site historique (Palais des anciens rois d'Hawaï)
+GPS         : Latitude : 21.306757 | Longitude : -157.85877
+Prix        : 100€/excursion
+
+
+
+//////////////////////////////ISLAND OF HAWAÏ ACTIVITIES////////////////////////////////////
+ACTIVITY 1 :
+Nom         : Helicopter Island of Hawaï 
+Adresse     : 73-200 Kupipi St, Kailua-Kona, HI 96740, États-Unis
+Description : Passage en hélicoptère au dessus de l'intégralité des iles d'Hawaï
+GPS         : Latitude : 19.736976 | Longitude : -156.042938
+Prix        : 300€/excursion
+
+
+ACTIVITY 2 :
+Nom         : Mauna Loa 
+Adresse     : Mauna Loa, South Kona, HI 96785, États-Unis
+Description : Expédition découverte vers un volcan éteint
+GPS         : Latitude : 19.472139 | Longitude : -155.592207
+Prix        : 100€/excursion
+
+
+ACTIVITY 3 :
+Nom         : Shark cage 
+Adresse     : 77-6474 Alii Dr, Kailua-Kona, HI 96740, États-Unis
+Description : Être dans une cage avec des requins blancs autours	
+GPS         : Latitude : 19.59424 | Longitude : -155.972214
+Prix        : 300€/excursion
+
+
+ACTIVITY 4 :
+Nom         : Pu'uhonua O Honaunau National Historical Park
+Adresse     : 1871 Trail, Captain Cook, HI 96704, États-Unis
+Description : Visite d'un parc national historique
+GPS         : Latitude : 19.421539 | Longitude : -155.910525
+Prix        : 80€/excursion

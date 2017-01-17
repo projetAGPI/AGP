@@ -1,65 +1,54 @@
-/////////////////HOTELS MAUI////////////////////
+/////////////////////////////////HOTELS MAUI//////////////////////////////////
 
-Nom     : Kaanapali Alii
-Adresse : 2365 Kaanapali Pkwy 
-          Lahaina
-		  HI
-	      96761 États-Unis  
-Étoiles : 4
-Prix	: 365€/nuit
+HOTEL 1 :
+Nom      : Kaanapali Alii     
+Adresse  : 2365 Kaanapali Pkwy, Lahaina, HI 96761, États-Unis
+GPS      : Latitude : 20.9194603 | Longitude : -156.6954883,15
+Étoiles  : 4
+Prix	 : 365€/nuit
 
 
-Nom      : Aston Kaanapali Shores
-Adresse  : 3445 Lower Honoapiilani Hwy 
-	       Lahaina 
-	       HI 
-	       96761 États-Unis
+HOTEL 2 :
+Nom      : Aston Kaanapali Shores     
+Adresse  : 3445 Lower Honoapiilani Hwy, Lahaina, HI 96761, États-Unis
+GPS      : Latitude : 20.9492838 | Longitude -156.689195
 Étoiles  : 3
 Prix     : 305€/nuit
 
 
 
+/////////////////////////////////HOTELS O'AHU/////////////////////////////////
 
-////////////////HOTELS O'AHU///////////////////
-
-HOTELS O'AHU :
-
+HOTEL 1 :
 Nom      : Hawaii Prince Hotel Waikiki
-Adresse  : 100 Holomoana St
-	       Honolulu 
-           HI 
-	       96815 États-Unis
+Adresse  : 100 Holomoana St, Honolulu, HI 96815, États-Unis
+GPS      : Latitude : 21.286509 | Longitude : -157.840199   
 Étoiles  : 4
 Prix     : 340€/nuit
 
 
+HOTEL 2 :
 Nom      : Ilikai Hotel & Luxury Suites
-Adresse  : 1777 Ala Moana Blvd, 
-		   Honolulu, 
-		   HI 
-		   96815 États-Unis
+Adresse  : 1777 Ala Moana Blvd, Honolulu, HI 96815 États-Unis
+GPS      : Latitude : 21.284277 | Longitude : -157.838551
 Étoiles  : 3
 Prix     : 252€/nuit
 
 
 
+////////////////////////////HOTELS ISLAND OF HAWAÏ////////////////////////////
 
-///////////HOTELS ISLAND OF HAWAÏ//////////////
-
+HOTEL 1 :
 Nom      : Mauna Lani Bay Hotel and Bungalows
-Adresse  : 68-1400 Mauna Lani Dr, 
-		   Kamuela
-		   HI
-		   96743 États-Unis
+Adresse  : Mauna Lani Bay Hotel & Bungalows 68-1400 Mauna Lani Dr, Waimea, HI 96743, États-Unis
+GPS      : Latitude : 19.946242 | Longitude : -155.867172
 Étoiles  : 4
 Prix     : 340€/nuit		 
 
-
+HOTEL 2 :
 Nom 	 : Aston Kona by the Sea
-Adresse  : 75-6106 Alii Dr 
-		   Kailua-Kona 
-		   HI 
-		   96740 États-Unis
+Adresse  : Aston Kona by the Sea 75-6106 Ali'i Dr, Kailua-Kona, HI 96740, États-Unis
+GPS      : Latitude : 19.61475 | Longitude : -155.982605
 Étoiles  : 3
 Prix     : 300€/nuit
 
