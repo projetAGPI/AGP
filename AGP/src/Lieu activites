@@ -1,83 +1,131 @@
 ////////////////////////////////////MAUI ACTIVITES/////////////////////////////////////////
 ACTIVITY 1 :
-Nom         : Haleakala National Park 
-Adresse     : 41 Hana Hwy, Hana, HI 96713, États-Unis
-Description : Randonnée découverte faune et flore locale de Hawaï
-GPS         : Latitude : 20.711189 | Longitude : -155.993795
-Prix        : 100€/excursion
-
+Nom          : Haleakala National Park 
+Adresse      : 41 Hana Hwy, Hana, HI 96713, États-Unis
+Description  : Randonnée découverte faune et flore locale de Hawaï - découverte,randonnée,nature,faune,flore
+GPS          : Latitude : 20.711189 | Longitude : -155.993795
+Prix         : 100€/excursion
+Des_activity : Le parc national de Haleakala est un parc national des États-Unis situé sur l'île de Maui, dans l'État de Hawaï. 
+		       Couvrant 118 km² de superficie dont 100 km² de désert, il tire son nom du volcan Haleakala.
+			   Haleakala, un volcan de bouclier géant, forme le rempart oriental de l'île de Maui. 
+			   Selon la légende, c'est dans le bassin imprenable au sommet de la montagne, que le demi-dieu Maui pièga le soleil, 
+			   le libérant seulement après qu'il a promis de se déplacer plus lentement à travers le ciel. 
+			   Haleakala signifie "maison du soleil"; Le parc englobe le bassin et les parties des flancs du volcan.
 
 ACTIVITY 2 :
-Nom         : Ka'anapali Beach 
-Adresse     : Kaanapali Beach, Kaanapali, HI 96761, États-Unis
-Description : Plage Privé, spa, hamam, massages...	
-GPS         : Latitude : 20.917831 | Longitude : -156.696625
-Prix        : 200€/excursion
+Nom          : Ka'anapali Beach 
+Adresse      : Kaanapali Beach, Kaanapali, HI 96761, États-Unis
+Description  : Plage Privé, spa, hamam, massages...	 - plage,mer,détente,repos
+GPS          : Latitude : 20.917831 | Longitude : -156.696625
+Prix         : 200€/excursion
+Des_activity : Avec trois kilomètres de sable blanc et d'eau cristalline, il n'est pas étonnant que Kaanapali Beach a été nommé la meilleure plage de l'Amérique. 
+			   Cette ancienne retraite pour la royauté de Maui est maintenant une escapade populaire pour le monde.
+			   Cinq hôtels et six villages en copropriété font face à cette plage renommée. 
+			   Kaanapali est aussi le Whalers Village, un complexe commercial de classe mondiale qui abrite une variété de boutiques et de restaurants exceptionnels, 
+			   un musée de la pêche à la baleine renommé et des divertissements hawaïens gratuits. 
+			   Kaanapali a également deux terrains de golf de championnat, le Royal Kaanapali et le Kaanapali Kai.
+
 
 
 ACTIVITY 3 :
-Nom         : Old Lahaina Luau
-Adresse     : 1251 Front St, Lahaina, HI 96761, États-Unis
-Description : Cuisine et Danses traditionnelles Hawaïennes
-GPS         : Latitude : 20.886007 | Longitude : -156.685327
-Prix        : 100€/excursion
-
-
+Nom          : Old Lahaina Luau
+Adresse      : 1251 Front St, Lahaina, HI 96761, États-Unis
+Description  : Cuisine et Danses traditionnelles Hawaïennes - découverte,culturel,traditionnel
+GPS          : Latitude : 20.886007 | Longitude : -156.685327
+Prix         : 100€/excursion
+Des_activity : Le Vieux Lahaina Lu'au est très fier de présenter un authentique Lu'au hawaïen.
+			   Une soirée de cuisine traditionnelle hawaïenne, musique, danses et démonstrations culturelles. 
+			   Les clients apprécieront un véritable reflet de la riche histoire d'Hawaii
+			   Tout en profitant d'une vue sur l'océan et le coucher du soleil.
+			
 
 ////////////////////////////////////O'AHU ACTIVITES////////////////////////////////////////
 ACTIVITY 1 :
-Nom         : Bishop Museum
-Adresse     : 1525 Bernice St, Honolulu, HI 96817, États-Unis
-Description : Visite du musée dédié à  la culture et l'histoire hawaïenne
-GPS         : Latitude : 21.332978 | Longitude : -157.870402
-Prix        : 80€/excursion
+Nom          : Bishop Museum
+Adresse      : 1525 Bernice St, Honolulu, HI 96817, États-Unis
+Description  : Visite du musée dédié à  la culture et l'histoire hawaïenne - culturel,historique
+GPS          : Latitude : 21.332978 | Longitude : -157.870402
+Prix         : 80€/excursion
+Des_activity : Depuis plus de 125 ans, nous avons amené Hawaï au monde et le monde à Hawaï. 
+			   Le Bishop Museum a été créé en 1889 pour préserver et partager l'histoire naturelle et culturelle de Hawaï et du Pacifique. 
+			   Aujourd'hui, le Bishop Museum abrite et s'occupe de plus de 24 millions de trésors historiques, culturels et naturels.
+			   Chaque élément de la collection a sa propre histoire spéciale à raconter. 
+			   Ces 24 millions d'histoires retracent l'histoire et les cultures des peuples de Hawaï et du Pacifique et nous aident à comprendre notre univers unique.
 
 
 ACTIVITY 2 :
-Nom         : Sea Life Park 	
-Adresse     : 41-202 Kalanianaole Hwy, Waimanalo, HI 96795, États-Unis
-Description : Découverte faune et flore sous-marine
-GPS         : Latitude : 21.313688 | Longitude : -157.66287
-Prix        : 50€/excusion
+Nom          : Sea Life Park 	
+Adresse      : 41-202 Kalanianaole Hwy, Waimanalo, HI 96795, États-Unis
+Description  : Découverte faune et flore sous-marine - mer,extrême,nature,sensations
+GPS          : Latitude : 21.313688 | Longitude : -157.66287
+Prix         : 50€/excusion
+Des_activity : Le Sea Life Park est l'endroit où le coeur rencontre la mer. 
+			   Aucun autre parc à O'ahu ne vous permettra de découvrir la variété animale unique d'Hawaï comme le fait le Sea Life Park.
+			   Dauphins, lions de mer, requins et aux rayons hawaïens, nous vous offrons l'occasion de vous rapprocher et de vous amuser avec nos animaux dans un cadre intime.
+			   Nos cinq habitats et expositions sont un excellent moyen d'apprendre et d'observer les comportements de l'animal.
+			   Nous offrons quelque chose d'unique pour tout le monde dans la famille.
 
 
 ACTIVITY 3 :
-Nom         : Iolani Palace 
-Adresse     : 364 S King St, Honolulu, HI 96813, États-Unis
-Description : Visite site historique (Palais des anciens rois d'Hawaï)
-GPS         : Latitude : 21.306757 | Longitude : -157.85877
-Prix        : 100€/excursion
-
-
+Nom          : Iolani Palace 
+Adresse      : Visite site historique (Palais des anciens rois d'Hawaï) - culturel,historique
+GPS          : Latitude : 21.306757 | Longitude : -157.85877
+Prix         : 100€/excursion
+Des_activity : Monument historique national et seule seule résidence officielle de la royauté aux États-Unis, le palais Iolani du centre-ville d'Honolulu a été la résidence 
+			   officielle des deux derniers Rois d'Hawaï de 1882 à 1893: le roi Kalakaua et sa soeur (successeure), la reine Liliuokalani.
+			   Le palais était un symbole de promesse pour le royaume hawaïen. Influencé par les styles architecturaux européens, cette résidence royale comprenait 
+			   le premier système de lumière électrique d'Hawaï, des toilettes avec chasse d'eau et un téléphone intra-maison. 
+			   L'intérieur riche comporte un escalier magnifique de koa, des portraits dramatiques de la royauté hawaïenne, des meubles ornés et des cadeaux et des ornements royaux du monde entier.
 
 //////////////////////////////ISLAND OF HAWAÏ ACTIVITIES////////////////////////////////////
 ACTIVITY 1 :
-Nom         : Helicopter Island of Hawaï 
-Adresse     : 73-200 Kupipi St, Kailua-Kona, HI 96740, États-Unis
-Description : Passage en hélicoptère au dessus de l'intégralité des iles d'Hawaï
-GPS         : Latitude : 19.736976 | Longitude : -156.042938
-Prix        : 300€/excursion
+Nom          : Blue Hawaiian
+Adresse      : 2450 Kekuanaoa St, Hilo, HI 96720, États-Unis
+Description  : Passage en hélicoptère au dessus de l'intégralité des iles d'Hawaï - découverte,sensations,ciel
+GPS          : Latitude : 19.714756 | Longitude : -155.040468
+Prix         : 300€/excursion
+Des_activity : Bienvenue dans le ciel bleu d'Hawaï! Blue Hawaiian est la seule compagnie d'excursion en hélicoptère desservant les principales îles hawaïennes.
+			   Cela signifie que partout où vous allez dans les îles d'Aloha, vous savez exactement comment obtenir le meilleur du monde tours aériens.
+			   Vivez une expérience extraordinaire dans le ciel Hwaï en découvrant la faune Hawaïenne vue du ciel! Ce tour
+			   Blue Hawaiian Helicopters a été la première entreprise aux États-Unis à être certifié dans le cadre du "Tour Operators Program of Safety" (TOPS). 
+			   Blue Hawaiian effectue plus d'heures de vol que toute autre compagnie aérienne.
+
 
 
 ACTIVITY 2 :
-Nom         : Mauna Loa 
-Adresse     : Mauna Loa, South Kona, HI 96785, États-Unis
-Description : Expédition découverte vers un volcan éteint
-GPS         : Latitude : 19.472139 | Longitude : -155.592207
-Prix        : 100€/excursion
+Nom          : Mauna Loa 
+Adresse      : Mauna Loa, South Kona, HI 96785, États-Unis
+Description  : Expédition découverte vers un volcan éteint - découverte,randonnée,expédition,nature,faune,flore
+GPS          : Latitude : 19.472139 | Longitude : -155.592207
+Prix         : 100€/excursion
+Des_activity : Le volcan le plus volumineux du monde ne culmine pas au-dessus de l'île d'Hawaï comme on peut s'y attendre. 
+			   Au lieu de cela, ses trois doigts prennent la majeure partie de la moitié sud de l'île, atteignant la mer dans les parties nord et sud de Kailua Kona, 
+			   à travers l'intérieur de Saddle Road et descendant derrière Hilo. Il est donc possible d'être sur les pentes de Mauna Loa et de ne même pas le réaliser!
+			   Mauna Loa permet une promenade panoramique de 17 miles sur ses pentes se situant entre 6 500 et 11 150 pieds au-dessus du niveau de la mer.
+
 
 
 ACTIVITY 3 :
-Nom         : Shark cage 
-Adresse     : 77-6474 Alii Dr, Kailua-Kona, HI 96740, États-Unis
-Description : Être dans une cage avec des requins blancs autours	
-GPS         : Latitude : 19.59424 | Longitude : -155.972214
-Prix        : 300€/excursion
+Nom          : Shark cage 
+Adresse      : 77-6474 Alii Dr, Kailua-Kona, HI 96740, États-Unis
+Description  : Être dans une cage avec des requins blancs autours - sensations,extrême,faune marine,mer
+GPS          : Latitude : 19.59424 | Longitude : -155.972214
+Prix         : 300€/excursion
+Des_activity : Shark cage est tout simplement l'activité la plus aventureuse à ajouter à vos prochaines vacances hawaïennes. 
+			   La plupart disent que c'est le point culminant de leur temps passé ici. Les rencontres de requins à Hawaï sont sécuritaires, amusantes et exaltantes. 
+			   Du plaisir pour toute la famille! Certains ont une énorme peur des requins, mais une fois que vous êtes dans la cage devant ces requins vous vous rendez compte de leur beauté.
+			   Vous pouvez également rencontrer les dauphins, les tortues hawaïennes et des magnifiques baleines à bosse au cours de ce périple!
 
 
 ACTIVITY 4 :
-Nom         : Pu'uhonua O Honaunau National Historical Park
-Adresse     : 1871 Trail, Captain Cook, HI 96704, États-Unis
-Description : Visite d'un parc national historique
-GPS         : Latitude : 19.421539 | Longitude : -155.910525
-Prix        : 80€/excursion
+Nom          : Pu'uhonua O Honaunau National Historical Park
+Adresse      : 1871 Trail, Captain Cook, HI 96704, États-Unis
+Description  : Visite d'un parc national historique - culturel,historique,
+GPS          : Latitude : 19.421539 | Longitude : -155.910525
+Prix         : 80€/excursion
+Des_activity : Situé sur la côte de la baie de Honaunau dans le sud de Kona, Puuhonua o Honaunau vous plonge dans la culture hawaïenne. 
+			   Ce parc historique national de 180 acres était jadis la maison de terrains royaux et un lieu de refuge pour les haineux hawaïens anciens.
+			   Kapu, ou lois sacrées, étaient de la plus haute importance à la culture hawaïenne et la rupture de kapu pourrait signifier la mort. 
+			   La seule chance de survie d'un "kapu-briseur" (briseur de lois sacrées) était d'échapper à ses poursuivants et de le faire à un puuhonua, ou un lieu sacré de refuge. 
+			   Une fois là-bas, une cérémonie d'absolution aurait lieu et le briseur de loi serait en mesure de retourner à la société.
+
