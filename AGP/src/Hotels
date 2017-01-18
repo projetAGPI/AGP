@@ -6,6 +6,7 @@ Adresse  : 2365 Kaanapali Pkwy, Lahaina, HI 96761, États-Unis
 GPS      : Latitude : 20.9194603 | Longitude : -156.6954883,15
 Étoiles  : 4
 Prix	 : 365€/nuit
+descrip  : Suite de luxe, tout équipée, 4 chambres, 500m2, jacuzzi privé, piscine Hotel
 
 
 HOTEL 2 :
@@ -14,6 +15,7 @@ Adresse  : 3445 Lower Honoapiilani Hwy, Lahaina, HI 96761, États-Unis
 GPS      : Latitude : 20.9492838 | Longitude -156.689195
 Étoiles  : 3
 Prix     : 305€/nuit
+descrip  : Suite, tout équipée, 3 chambres, 300m2, piscine Hotel
 
 
 
@@ -25,6 +27,7 @@ Adresse  : 100 Holomoana St, Honolulu, HI 96815, États-Unis
 GPS      : Latitude : 21.286509 | Longitude : -157.840199   
 Étoiles  : 4
 Prix     : 340€/nuit
+descrip  : Suite de luxe, tout équipée, 4 chambres, 600m2, jacuzzi privé, spa privé, piscine Hotel
 
 
 HOTEL 2 :
@@ -33,6 +36,7 @@ Adresse  : 1777 Ala Moana Blvd, Honolulu, HI 96815 États-Unis
 GPS      : Latitude : 21.284277 | Longitude : -157.838551
 Étoiles  : 3
 Prix     : 252€/nuit
+descrip  : Suite, tout équipée, 2 chambres, 250m2, piscine Hotel
 
 
 
@@ -43,7 +47,9 @@ Nom      : Mauna Lani Bay Hotel and Bungalows
 Adresse  : Mauna Lani Bay Hotel & Bungalows 68-1400 Mauna Lani Dr, Waimea, HI 96743, États-Unis
 GPS      : Latitude : 19.946242 | Longitude : -155.867172
 Étoiles  : 4
-Prix     : 340€/nuit		 
+Prix     : 340€/nuit	
+descrip  : Suite de luxe, tout équipée, 3 chambres, 550m2, hamam privé, piscine Hotel
+	 
 
 HOTEL 2 :
 Nom 	 : Aston Kona by the Sea
@@ -51,7 +57,7 @@ Adresse  : Aston Kona by the Sea 75-6106 Ali'i Dr, Kailua-Kona, HI 96740, États-
 GPS      : Latitude : 19.61475 | Longitude : -155.982605
 Étoiles  : 3
 Prix     : 300€/nuit
-
+descrip  : Suite, tout équipée, 3 chambres, 250m2, piscine Hotel
 
 
 
