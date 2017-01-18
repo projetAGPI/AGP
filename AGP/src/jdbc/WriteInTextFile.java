@@ -13,11 +13,14 @@ import java.util.ArrayList;
 import business.model.Excursion;
 
 public class WriteInTextFile {
-	 
 
-	private void writeToFile(String path) {
+	public static void main(String[] args) {
+		WriteInTextFile.writeToFile("./data");
+	}
 
-		Excursion readExcursion= new Excursion();
+	private static void writeToFile(String path) {
+
+		Excursion readExcursion = new Excursion();
 		try {
 
 			String selectHotelQuery = "SELECT * FROM excursion";
@@ -26,26 +29,24 @@ public class WriteInTextFile {
 			PreparedStatement preparedStatement = dbConnection.prepareStatement(selectHotelQuery);
 
 			ResultSet result = preparedStatement.executeQuery();
-			
-				try{
-					while (result.next()) {
-						
-						int id_ex=result.getInt("id_excursion");
-						String desc_ex=result.getString("description");
-						
 
-						BufferedWriter bw =null;
-						String filename=id_ex+".txt";
-						File file = new File(path+"/"+filename);
-						bw=new BufferedWriter(new FileWriter(file,true));
-						bw.write(desc_ex);
-					
-						bw.close();
-					}
-					
+			try {
+				while (result.next()) {
+
+					int id_ex = result.getInt("id_excursion");
+					String desc_ex = result.getString("description");
+
+					BufferedWriter bw = null;
+					String filename = id_ex + ".txt";
+					File file = new File(path + "/" + filename);
+					bw = new BufferedWriter(new FileWriter(file, true));
+					bw.write(desc_ex);
+
+					bw.close();
 				}
-				catch(IOException e){	
-				}
+
+			} catch (IOException e) {
+			}
 			result.close();
 			preparedStatement.close();
 
@@ -54,7 +55,5 @@ public class WriteInTextFile {
 		}
 
 	}
-
-	
 
 }
