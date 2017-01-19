@@ -4,24 +4,45 @@ package business.model;
 public class Hotel {
 	
 	private int id;
-	private int price;
 	private int stars;
+	private double price;
 	private String name;
-	private String adress;
+	private String address;
 	private String hotel_isle;
 	private String area_longitude;
 	private String area_latitude;
 	private String img_hotel;
+	
+
+	
+	public Hotel() {
+	}
+	
+	public Hotel(int id, int stars, double price, String name, String address,
+			String hotel_isle, String area_longitude, String area_latitude,
+			String img_hotel) {
+		this.id = id;
+		this.price = price;
+		this.stars = stars;
+		this.name = name;
+		this.address = address;
+		this.hotel_isle = hotel_isle;
+		this.area_longitude = area_longitude;
+		this.area_latitude = area_latitude;
+		this.img_hotel = img_hotel;
+	}
+
+
 	public int getId() {
 		return id;
 	}
 	public void setId(int id) {
 		this.id = id;
 	}
-	public int getPrice() {
+	public double getPrice() {
 		return price;
 	}
-	public void setPrice(int price) {
+	public void setPrice(double price) {
 		this.price = price;
 	}
 	public int getStars() {
@@ -36,11 +57,11 @@ public class Hotel {
 	public void setName(String name) {
 		this.name = name;
 	}
-	public String getAdress() {
-		return adress;
+	public String getAddress() {
+		return address;
 	}
-	public void setAdress(String adress) {
-		this.adress = adress;
+	public void setAddress(String address) {
+		this.address = address;
 	}
 	public String getHotel_isle() {
 		return hotel_isle;
@@ -67,10 +88,10 @@ public class Hotel {
 		this.img_hotel = img_hotel;
 	}
 
-	
-	public Hotel() {
-	}
-	
-	
+	@Override
+	public String toString() {
+		return "Hotel [price=" + price + ", stars=" + stars + ", name=" + name
+				+ ", address=" + address + ", hotel_isle=" + hotel_isle + "]";
+	}	
 	
 }
