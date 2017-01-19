@@ -1,29 +1,44 @@
 package beans;
 
+import javax.faces.bean.ManagedBean;
+import javax.faces.bean.SessionScoped;
 import business.model.SystemEntry;
 
+@ManagedBean
+@SessionScoped
 public class EntryBean {
-	private SystemEntry entry = new SystemEntry();
-
-	private int id;
-
-	public EntryBean() {
-		
-	}
 	
-	public SystemEntry getEntry() {
-		return entry;
+	private static final long serialVersionUID = 6955508471291131930L;
+	
+	private SystemEntry entries = new SystemEntry();
+
+	
+	public String searchOffers(){
+		return "result";
 	}
 
-	public void setEntry(SystemEntry entry) {
-		this.entry = entry;
+	public String getKeywords() {
+		return entries.getKeywords();
 	}
 
-	public int getId() {
-		return id;
+	public void setKeywords(String keywords) {
+		entries.setKeywords(keywords);
 	}
 
-	public void setId(int id) {
-		this.id = id;
+	public int getMaxBudget() {
+		return entries.getMaxBudget();
 	}
+
+	public void setMaxBudget(int maxBudget) {
+		entries.setMaxBudget(maxBudget);
+	}
+
+	public String getComfortLevel() {
+		return entries.getComfortLevel();
+	}
+
+	public void setComfortLevel(String comfortLevel) {
+		entries.setComfortLevel(comfortLevel);
+	}
+
 }

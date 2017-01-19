@@ -1,28 +1,44 @@
 package business.model;
 
 public class SystemEntry {
-	private String searchInformation;
+	private String keywords;
+	private int maxBudget;
+	private String comfortLevel;
 	
 	public SystemEntry() {
-
+		super();
 	}
 
-	public SystemEntry(String searchInformation) {
-		
-		this.searchInformation = searchInformation;
-		
+	public SystemEntry(String keywords, int maxBudget, String comfortLevel) {
+		super();
+		this.keywords = keywords;
+		this.maxBudget = maxBudget;
+		this.comfortLevel = comfortLevel;
 	}
 
-	public String getSearchInformation() {
-		return searchInformation;
+	public String getKeywords() {
+		return keywords;
 	}
 
-	public void setSearchInformation(String searchInformation) {
-		this.searchInformation = searchInformation;
+	public void setKeywords(String keywords) {
+		this.keywords = keywords;
 	}
 
-	@Override
-	public String toString() {
-		return "SystemEntry [searchInformation=" + searchInformation + "]";
+	public int getMaxBudget() {
+		return maxBudget;
 	}
+
+	public void setMaxBudget(int maxBudget) {
+		this.maxBudget = maxBudget;
+	}
+
+	public String getComfortLevel() {
+		return comfortLevel;
+	}
+
+	public void setComfortLevel(String comfortLevel) {
+		this.comfortLevel = comfortLevel;
+	}
+	
+	
 }

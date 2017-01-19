@@ -1,0 +1,28 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:f="http://java.sun.com/jsf/core"
+	xmlns:ui="http://java.sun.com/jsf/facelets"
+	lang="#{localeBean.language}">
+<f:view locale="#{localeBean.locale}" />
+<h:head>
+	<title>#{msg['label.entry.welcome']}</title>
+</h:head>
+<h:body>
+	<p>
+		<strong>#{msg['label.entry.welcome']}</strong>
+	</p>
+
+	<fieldset>
+		<h:form>
+			#{msg['label.entry.keywords']}<h:inputText value="#{entryBean.keywords}" /> <br />
+			#{msg['label.entry.budget']}<h:inputText value="#{entryBean.maxBudget}" /> <br />
+			#{msg['label.entry.comfort']}<h:inputText value="#{entryBean.comfortLevel}" /> <br />
+			 
+			<h:commandButton value="#{msg['label.entry.simulate']}" action="#{entryBean.searchOffers}" />
+		</h:form>
+	<p />
+	</fieldset>
+</h:body>
+</html>
