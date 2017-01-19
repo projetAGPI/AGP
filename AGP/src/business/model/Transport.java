@@ -25,8 +25,13 @@ public class Transport {
 		return cost;
 	}
 
-	public void setCost(double cost) {
-		this.cost = cost;
+	public void setCost() {
+		if(this.name.equals("Bus")){
+			this.cost = 10;
+		}
+		else if(this.name.equals("Boat")) {
+			this.cost = 25;
+		}
 	}
 
 	@Override
