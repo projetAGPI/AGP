@@ -23,11 +23,11 @@ public class SearchExcursion {
 //		System.out.println(excursion.getDescription());
 //	}
 
-	private  List<Excursion> SearchById(int id) {
+	public  List<Excursion> SearchById(int id,String sql) {
 
 		try {
 
-			String selectExcursionQuery = "SELECT * FROM excursion WHERE id_excursion=?";
+			String selectExcursionQuery = sql+" WHERE id_excursion=?";
 			Connection dbConnection = JdbcConnection.getConnection();
 			PreparedStatement preparedStatement = dbConnection.prepareStatement(selectExcursionQuery);
 			preparedStatement.setInt(1, id);
