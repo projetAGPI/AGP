@@ -34,7 +34,7 @@ public class Offer {
 	
 	public double getOfferPrice(){
 		double finalPrice = 0;
-		finalPrice = hotel.getPrice();
+		finalPrice = hotel.getHotel_Price();
 		for(int i = 0; i < excursionList.getExcursionList().size(); i++){
 			setTransportType(excursionList.getExcursionList().get(i));
 			finalPrice += excursionList.getExcursionList().get(i).getPrice() + excursionList.getExcursionList().get(i).getTransport().getCost();

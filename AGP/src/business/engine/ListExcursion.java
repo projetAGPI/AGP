@@ -1,6 +1,7 @@
 package business.engine;
 
 import java.util.ArrayList;
+import java.util.List;
 
 import business.model.Excursion;
 

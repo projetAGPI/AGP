@@ -13,10 +13,36 @@ import jdbc.JdbcConnection;
 
 public class SearchHotel {
 
-	private List<Hotel> resultat = new ArrayList<Hotel>();
-	private List<Hotel> resultat2 = new ArrayList<Hotel>();
+	private static List<Hotel> resultat = new ArrayList<Hotel>();
+	
+	public static void main (String args[]){
+		simulate("Bon");
+	}
+	
+	public static void simulate(String comfort){
+		int star=comfortToStar(comfort);
+		searchByStar(star);
+		if(resultat.size()!=0){
+		for(int i=0;i<resultat.size();i++){
+			System.out.println(resultat.get(i).getStars());
+		}
+		}
+	}
+	
+	public static int comfortToStar(String comfort){
+		int star=0;
+		switch(comfort){
+		case "Bon":
+			star=3;
+			break;
+		case "Meilleur":
+			star=4;
+			break;
+		}
+		return star;
+	}
 
-	private List<Hotel> SearchByStar(int star) {
+	private static void searchByStar(int star) {
 
 		try {
 
@@ -32,11 +58,12 @@ public class SearchHotel {
 
 				hotel.setId(result.getInt("id_hotel"));
 				hotel.setName(result.getString("hotel_name"));
-				hotel.setPrice(result.getInt("hotel_price"));
+				hotel.setHotel_Price(result.getInt("hotel_price"));
+				hotel.setStars(result.getInt("stars"));
 				hotel.setAddress(result.getString("adress"));
 				hotel.setHotel_isle(result.getString("hotel_isle"));
-				hotel.setArea_latitude(result.getString("hotel_latitude"));
-				hotel.setArea_longitude(result.getString("hotel_longitude"));
+				hotel.setHotel_latitude(result.getString("hotel_latitude"));
+				hotel.setHotel_longitude(result.getString("hotel_longitude"));
 
 				resultat.add(hotel);
 			}
@@ -47,11 +74,10 @@ public class SearchHotel {
 		} catch (SQLException se) {
 			System.err.println(se.getMessage());
 		}
-		return resultat;
 
 	}
-
-	private List<Hotel> SearchByPrice(int price) {
+/*
+	private List<Hotel> searchByPrice(int price) {
 
 		try {
 
@@ -70,10 +96,10 @@ public class SearchHotel {
 				hotel.setStars(result.getInt("stars"));
 				hotel.setAddress(result.getString("adress"));
 				hotel.setHotel_isle(result.getString("hotel_isle"));
-				hotel.setArea_latitude(result.getString("hotel_latitude"));
-				hotel.setArea_longitude(result.getString("hotel_longitude"));
+				hotel.setHotel_latitude(result.getString("hotel_latitude"));
+				hotel.setHotel_longitude(result.getString("hotel_longitude"));
 
-				resultat2.add(hotel);
+				resultat.add(hotel);
 			}
 
 			result.close();
@@ -82,8 +108,8 @@ public class SearchHotel {
 		} catch (SQLException se) {
 			System.err.println(se.getMessage());
 		}
-		return resultat2;
+		return resultat;
 
 	}
-
+*/
 }

@@ -14,7 +14,17 @@
 		<legend>
 			<strong>#{msg['label.result.title']}</strong>
 		</legend>
-		#{msg['label.result.offers']} #{resultBean.offersResult} <br />
+	
+					<h:dataTable var="hotel" value="#{entryBean.simulation.hotels}"
+				border="1" id="scoreTable">
+				<h:column>
+					<f:facet name="header">Hotel</f:facet>
+                                        #{hotel.toString()}
+                                </h:column>
+
+			
+			</h:dataTable>
+
 	</fieldset>
 </h:body>
 </html>

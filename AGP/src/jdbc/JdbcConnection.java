@@ -5,10 +5,10 @@ import java.sql.Connection;
 import java.sql.DriverManager;
 
 public class JdbcConnection {
-	private static String host = "localhost:8889";
+	private static String host = "localhost";
 	private static String base = "trip";
 	private static String user = "root";
-	private static String password = "root";
+	private static String password = "";
 	private static String url = "jdbc:mysql://" + host + "/" + base;
 
 	/**

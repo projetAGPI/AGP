@@ -18,7 +18,7 @@
 		<h:form>
 			#{msg['label.entry.keywords']}<h:inputText value="#{entryBean.keywords}" /> <br />
 			#{msg['label.entry.budget']}<h:inputText value="#{entryBean.maxBudget}" /> <br />
-			#{msg['label.entry.comfort']}<h:inputText value="#{entryBean.comfortLevel}" /> <br />
+			#{msg['label.entry.comfort']}<h:inputText value="#{entryBean.comfortLevel}" required="true"/> <br />
 			 
 			<h:commandButton value="#{msg['label.entry.simulate']}" action="#{entryBean.searchOffers}" />
 		</h:form>

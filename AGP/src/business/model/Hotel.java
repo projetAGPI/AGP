@@ -5,12 +5,12 @@ public class Hotel {
 	
 	private int id;
 	private int stars;
-	private double price;
+	private double hotel_price;
 	private String name;
 	private String address;
 	private String hotel_isle;
-	private String area_longitude;
-	private String area_latitude;
+	private String hotel_longitude;
+	private String hotel_latitude;
 	private String img_hotel;
 	
 
@@ -22,13 +22,13 @@ public class Hotel {
 			String hotel_isle, String area_longitude, String area_latitude,
 			String img_hotel) {
 		this.id = id;
-		this.price = price;
+		this.hotel_price = price;
 		this.stars = stars;
 		this.name = name;
 		this.address = address;
 		this.hotel_isle = hotel_isle;
-		this.area_longitude = area_longitude;
-		this.area_latitude = area_latitude;
+		this.hotel_longitude = area_longitude;
+		this.hotel_latitude = area_latitude;
 		this.img_hotel = img_hotel;
 	}
 
@@ -39,11 +39,11 @@ public class Hotel {
 	public void setId(int id) {
 		this.id = id;
 	}
-	public double getPrice() {
-		return price;
+	public double getHotel_Price() {
+		return hotel_price;
 	}
-	public void setPrice(double price) {
-		this.price = price;
+	public void setHotel_Price(double price) {
+		this.hotel_price = price;
 	}
 	public int getStars() {
 		return stars;
@@ -69,17 +69,17 @@ public class Hotel {
 	public void setHotel_isle(String hotel_isle) {
 		this.hotel_isle = hotel_isle;
 	}
-	public String getArea_longitude() {
-		return area_longitude;
+	public String getHotel_longitude() {
+		return hotel_longitude;
 	}
-	public void setArea_longitude(String area_longitude) {
-		this.area_longitude = area_longitude;
+	public void setHotel_longitude(String area_longitude) {
+		this.hotel_longitude = area_longitude;
 	}
-	public String getArea_latitude() {
-		return area_latitude;
+	public String getHotel_latitude() {
+		return hotel_latitude;
 	}
-	public void setArea_latitude(String area_latitude) {
-		this.area_latitude = area_latitude;
+	public void setHotel_latitude(String area_latitude) {
+		this.hotel_latitude = area_latitude;
 	}
 	public String getImg_hotel() {
 		return img_hotel;
@@ -90,7 +90,7 @@ public class Hotel {
 
 	@Override
 	public String toString() {
-		return "Hotel [price=" + price + ", stars=" + stars + ", name=" + name
+		return "Hotel [price=" + hotel_price + ", stars=" + stars + ", name=" + name
 				+ ", address=" + address + ", hotel_isle=" + hotel_isle + "]";
 	}	
 	
